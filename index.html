@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COCDN</title>
+<style>
+    html,body{
+        padding: 0;
+        margin: 0;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+        width: 100vw;
+        height: 100vh;
+    }
+    .icon{
+        width: 9vw;
+        height: 9vw;
+        background: url("./favicon.ico")  no-repeat;
+        background-size: 100% 100%;
+    }
+    .cocdn{
+        width: 20vw;
+        height: calc(20vw * 0.5);
+        background: url("./cocdn.svg")  no-repeat;
+        background-size: 100% 100%;
+    }
+    .tit{
+        display: flex;
+        align-items: center;
+        flex-direction:row;
+    }
+    .link{
+        height: 10rem;
+        line-height: 10rem;
+        font-size:1.2rem; 
+    }
+    a{
+        color: #333;
+    }
+    @media all and (max-width: 1100px) {
+        .icon{
+            width: 25vw;
+            height: 25vw;
+        }
+        .cocdn{
+            width: 55vw;
+            height: calc(56vw * 0.5);
+        }
+    }
+    foot{
+        position: fixed;
+        bottom: 2rem;
+    }
+    foot,foot a{
+        font-size: 0.8rem;
+        color: #888;
+    }
+</style>
+</head>
+
+<body>
+<div class="home">
+    <div class="tit">
+        <div class="icon"></div>
+        <div class="cocdn"></div>
+    </div>
+    <div class="link"><a href="https://blog.cocdn.top/">Blog</a> / <a href="https://t.cocdn.top/">Music</a> / <a href="https://img.cocdn.top/">IMG</a> / <a href="https://dl.cocdn.top/">DL</a></div>
+    <foot>网站备案号: <a href="#">晋ICP备17005933号</a></foot>
+</div>
+
+</body>
+</html>
